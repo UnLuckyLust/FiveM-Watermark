@@ -8,6 +8,7 @@ simple nui script that will add your custom watermark to the server
 ## installation
 1. ensure ull-watermark
 2. change the config in 'nui.html' however you want
+3. you may change the logo but keep the name 'logo.png'
 
 ### This is the source code
 ### if you are interested in future updates
