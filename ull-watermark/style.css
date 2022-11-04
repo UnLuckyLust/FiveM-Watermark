@@ -1,0 +1,50 @@
+.logo {
+    width: var(--image-width);
+    position: absolute;
+    top: var(--image-top);
+    right: var(--image-right);
+}
+/* background */
+@-webkit-keyframes back {  
+    0% { color: white; }
+    25% { color: var(--color); }
+    50% { color: var(--dark-color); }
+    75% { color: black; }
+    100% { color: white; }
+  }
+  .bg::before {
+    content: var(--name);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    position: absolute;
+    top: var(--name-top);
+    right: var(--name-right);  
+    background-color: transparent;
+    -webkit-animation-name: back;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 60s; 
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+} 
+
+/* front name */
+  @-webkit-keyframes front {  
+    0% { color: black; }
+    25% { color: white; }
+    50% { color: black; }
+    75% { color: var(--color); }
+    100% { color: black; }
+  }
+  
+  .name::before {
+    content: var(--name);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    position: absolute;
+    top: var(--name-top);
+    right: var(--name-right); 
+    background-color: transparent;
+    -webkit-animation-name: front;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 60s; 
+} 
