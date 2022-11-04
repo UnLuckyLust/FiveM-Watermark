@@ -1,12 +1,13 @@
 /* made by UnLuckyLust#9534 */
 
-
+/* image */
 .logo {
     width: var(--image-width);
     position: absolute;
     top: var(--image-top);
     right: var(--image-right);
 }
+
 /* background */
 @-webkit-keyframes back {  
     0% { color: white; }
