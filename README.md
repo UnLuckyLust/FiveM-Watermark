@@ -10,7 +10,6 @@ simple nui script that will add your custom watermark to the server
 2. change the config in 'nui.html' however you want
 3. you may change the logo but keep the name 'logo.png'
 
-### This is the source code v1.0.0
+### This is the source code (v1.0.0)
 ### if you are interested in future updates
-### You are welcome to get the file for free from 
-[Tebex](https://unluckylust.tebex.io/package/5365811) - v1.1.0
+### You are welcome to get the file for free from [Tebex - v1.1.0](https://unluckylust.tebex.io/package/5365811)
