@@ -7,7 +7,6 @@
     top: var(--image-top);
     right: var(--image-right);
 }
-
 /* background */
 @-webkit-keyframes back {  
     0% { color: white; }
