@@ -1,15 +1,53 @@
-# WaterMark for FiveM Servers 
-By UnLuckyLust#9534
-### For support join us on [Discord](https://discord.gg/gtH9nkGrHu)
-
-simple nui script that will add your custom watermark to the server
-
-
-## installation
-1. ensure ull-watermark
-2. change the config in 'nui.html' however you want
-3. you may change the logo but keep the name 'logo.png'
-
 ### This is the source code (v1.0.0)
 ### if you are interested in future updates
-### You are welcome to get the file for free from [Tebex - v1.1.0](https://unluckylust.tebex.io/package/5365811)
+### You are welcome to 📥 **Download Free At:** [Tebex](https://UnLuckyLust.tebex.io)
+
+# **WaterMark for FiveM Servers**
+### *By UnLuckyLust (Dreams Weaver 2023-2025)*
+💬 **Need Help?** Join our **[Discord](https://discord.gg/gtH9nkGrHu)** for support!
+
+---
+
+## **About**
+`ull-watermark` is a **custom watermark script** for FiveM servers, featuring a **UI for real-time customization**.
+
+- Supports **QB-Core, ESX Legacy, and Standalone**
+- Includes **5 Text Animations** (Typing, Glow, Expand, Fade)
+- UI Controls and **Toggle Commands**
+- Fully configurable command names
+
+---
+
+## **Dependencies**
+Before installing, ensure you have:
+- ✅ [ull-essential](https://dreamsweaver.co/Releases/Essentials) *(Required for core functionality, for the full version only not source code!)*
+
+---
+
+## **Installation**
+1. Install all dependencies listed above.
+2. Add to `server.cfg`:
+   ```
+   ensure ull-watermark
+   ```  
+3. Adjust the settings in the configuration files as you wish.
+
+---
+
+## **Commands**
+The script allows to **set custom command names** in the configuration file. The following commands are available by default:
+
+| Command             | Description                                  |
+|---------------------|----------------------------------------------|
+| `/watermark+`     | Opens the watermark UI settings menu.       |
+| `/watermark`  | Toggles the watermark visibility.           |
+
+---
+
+## **Changelog**
+### **Version 2.0.0**
+- **Rewritten for better performance**
+- **5 new text animations**
+- **Added UI controls**
+- **Supports QB-Core, ESX Legacy & Standalone**
+- **New Dependency:** `ull-essential`
